@@ -2,7 +2,7 @@ package school
 
 import (
 	"fmt"
-	"github.com/knarfmon/GoMetaCheck/SchoolTutorial/config"
+	"SchoolTutorial/config"
 	"net/http"
 
 )

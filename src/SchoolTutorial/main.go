@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/CryptoCase/goworkspace/SchoolTutorial/school"
 	//Must import the school package because that contains handler.go and model.go
+	"SchoolTutorial/school"
 	"net/http"
 )
 

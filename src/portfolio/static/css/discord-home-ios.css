@@ -1,0 +1,18 @@
+div.non-mobile-images {
+display: none;
+}
+
+button.open {
+  display: none;
+}
+
+button.download-android {
+  display: none;
+}
+button.download-windows {
+  display: none;
+}
+
+button.download-ios {
+  display: inline;
+}

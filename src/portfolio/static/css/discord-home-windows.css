@@ -1,0 +1,578 @@
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "desktop-nav"
+    "main"
+    "section"
+    "footer";
+  background: #2C2F33;
+  font-family: sans-serif;
+}
+
+div.nav {
+  display: none;
+}
+
+div.desktop-nav {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+div.left-nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+img.discord-logo {
+  height: 35px;
+  position: relative;
+  bottom: 4px;
+  margin-right: 20px;
+}
+
+ul.desktop-main-nav {
+  display: inline-flex;
+}
+
+li.stay-open-developers {
+  padding-bottom: 20px;
+}
+
+li.stay-open-community {
+  padding-bottom: 20px;
+}
+
+li.stay-open-support {
+  padding-bottom: 20px;
+}
+
+ul.desktop-main-nav li.stay-open-developers:hover>ul.desktop-subnav-developers {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: absolute;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 332;
+  top: 30px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 140px;
+  z-index: 1000;
+}
+
+ul.desktop-subnav-developers {
+  display: none;
+  position: fixed;
+}
+
+ul.desktop-main-nav li.stay-open-community:hover>ul.desktop-subnav-community {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: absolute;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 425px;
+  top: 30px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 140px;
+}
+
+ul.desktop-subnav-community {
+  display: none;
+  position: fixed;
+}
+
+ul.desktop-main-nav li.stay-open-support:hover>ul.desktop-subnav-support {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: absolute;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 520px;
+  top: 30px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 140px;
+}
+
+ul.desktop-subnav-support {
+  display: none;
+  position: fixed;
+}
+
+li.desktop-subnav {
+  position: relative;
+  color: #2C2F33;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav.social-nav {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  bottom: 5px;
+}
+
+ul.social-nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+button.social-nav {
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 17px 7px;
+  margin-left: 5px;
+  margin-right: 25px;
+  border: 2px solid white;
+  border-radius: 20px;
+  opacity: .8;
+}
+
+div.hr {
+  display: none;
+  width: 2px;
+  height: 15px;
+  color: white;
+  background: white;
+  margin-left: 20px;
+  margin-right: 10px;
+  align-self: center;
+  opacity: .4;
+}
+
+h2 {
+  max-width: 750px;
+}
+
+button.open {
+  display: inline;
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+
+button.download-android {
+  display: none;
+}
+
+button.download-windows {
+  display: inline;
+  margin-bottom: 0px;
+}
+
+button.download-ios {
+  display: none;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 700px 600px;
+  grid-template-rows: 1fr;
+  height: 625px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+div.device-agnostic-images {
+  display: grid;
+  grid-column: 1;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  padding-top: 30px;
+}
+
+img.laptop {
+  z-index: 3;
+  position: relative;
+  left: 520px;
+  bottom: 377px;
+}
+
+img.headphones {
+  z-index: 5;
+  width: 100px;
+  position: relative;
+  left: 825px;
+  bottom: 1093px;
+}
+
+img.android {
+  z-index: 2;
+  position: relative;
+  top: 325px;
+  left: 105px;
+}
+
+img.iphone {
+  display: inline-flex;
+  z-index: 3;
+  position: relative;
+  top: 330px;
+  left: 125px;
+}
+
+div.non-mobile-images {
+  display: grid;
+  grid-column: 2;
+  grid-template-columns: auto;
+  grid-auto-flow: row;
+  padding-top: 30px;
+}
+
+img.left-circle {
+  z-index: 10;
+  position: relative;
+  right: 440px;
+  top: 20px;
+  opacity: .4;
+}
+
+img.right-circle {
+  z-index: 10;
+  position: relative;
+  left: 490px;
+  top: 230px;
+  opacity: .4;
+}
+
+img.left-x {
+  z-index: 10;
+  position: relative;
+  right: 680px;
+  bottom: 10px;
+  opacity: .4;
+}
+
+img.right-x {
+  z-index: 1;
+  position: relative;
+  left: 450px;
+  top: 220px;
+  opacity: .4;
+}
+
+img.top-square {
+  z-index: 10;
+  position: relative;
+  left: 255px;
+  bottom: 180px;
+  opacity: .4;
+}
+
+img.bottom-square {
+  z-index: 10;
+  position: relative;
+  left: 340px;
+  bottom: 20px;
+  opacity: .4;
+}
+
+img.desktop-square {
+  z-index: 1;
+  position: relative;
+  right: 70px;
+  top: 230px;
+  opacity: .4;
+}
+
+img.desktop-triangle {
+  z-index: 10;
+  position: relative;
+  right: 50px;
+  bottom: 260px;
+  opacity: .4;
+}
+
+img.left-bottom-dot {
+  z-index: 10;
+  position: relative;
+  right: 700px;
+  top: 60px;
+  opacity: .4;
+}
+
+img.left-top-dot {
+  z-index: 10;
+  position: relative;
+  right: 370px;
+  bottom: 380px;
+  opacity: .4;
+}
+
+img.middle-dot {
+  z-index: 10;
+  position: relative;
+  left: 95px;
+  bottom: 320px;
+  opacity: .4;
+}
+
+img.right-bottom-dot {
+  z-index: 10;
+  position: relative;
+  left: 540px;
+  opacity: .4;
+}
+
+img.right-top-dot {
+  z-index: 10;
+  position: relative;
+  left: 450px;
+  bottom: 485px;
+  opacity: .4;
+}
+
+img.left-coin {
+  z-index: 4;
+  position: relative;
+  right: 500px;
+  bottom: 300px;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-name: float;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0px, 20px);
+  }
+}
+
+img.right-coin {
+  z-index: 2;
+  position: relative;
+  bottom: 590px;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-name: float;
+}
+
+img.question-box {
+  z-index: 1;
+  position: relative;
+  right: 325px;
+  bottom: 620px;
+  cursor: default;
+}
+
+img.desktop {
+  z-index: 2;
+  position: relative;
+  right: 375px;
+  bottom: 637px;
+}
+
+img.controller {
+  z-index: 3;
+  position: relative;
+  right: 330px;
+  bottom: 747px;
+}
+
+img.controller-circle {
+  z-index: 2;
+  position: relative;
+  right: 270px;
+  bottom: 863px;
+  opacity: .4;
+}
+
+img.potion {
+  z-index: 1;
+  position: relative;
+  right: 705px;
+  bottom: 986px;
+}
+
+img.bomb {
+  z-index: 3;
+  position: relative;
+  right: 550px;
+  bottom: 1420px;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-name: float;
+}
+
+img.gamecartridge {
+  z-index: 1;
+  position: relative;
+  left: 165px;
+  bottom: 1540px;
+  animation-duration: 2.25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-name: float;
+}
+
+img.shield {
+  z-index: 2;
+  position: relative;
+  left: 345px;
+  bottom: 1268px;
+}
+
+div.black-undershadow {
+  background-color: #23272A;
+  height: 50px;
+  width: 99%;
+  border: 1px solid #23272A;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 380px;
+  margin: auto;
+}
+
+footer {
+  grid-area: footer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+nav.links {
+  display: inline-flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  flex-wrap: nowrap;
+}
+
+img.footer-logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.footer-product {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.footer-developers {
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.footer-resources {
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.footer-company {
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.footer-more {
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+li {
+  text-align: left;
+  padding-left: 0px;
+}
+
+h5 {
+  text-align: left;
+}
+
+hr {
+  height: 1px;
+  width: 99%;
+  opacity: .1;
+  margin-bottom: 25px;
+  background-image: url(https://discordapp.com//assets/ffa0a8d74568beaa8ec72dd51951685c.svg);
+}
+
+div.try-discord {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.footer-text {
+  position: relative;
+  right: 40%;
+}
+
+h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+h4 {
+  color: #eeeeee;
+  opacity: .6;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+button.footer-open-discord {
+  background-color: #7289DA;
+  border: 1px solid #7289DA;
+  border-radius: 3px;
+  height: 45px;
+  width: 125px;
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  top: 10px;
+  left: 40%;
+}
+
+button.footer-open-discord:hover {
+  transform: translateY(-1px);
+}

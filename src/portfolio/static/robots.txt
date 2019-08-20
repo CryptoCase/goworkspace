@@ -1,0 +1,7 @@
+#updated 08/02/2019
+
+User-agent:*
+
+Sitemap: https://caseyscottyoung.com/sitemap.xml
+
+# End robots.txt
