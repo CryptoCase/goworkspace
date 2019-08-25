@@ -1,14 +1,19 @@
 package main
 
 import (
-	"log"
 	"net/http"
+
+	"google.golang.org/appengine"
 )
 
 func main() {
-	fs := http.FileServer(http.Dir("static"))
-	http.Handle("/", fs)
+	http.Handle("/", http.FileServer(http.Dir("static")))
+	appengine.Main()
 
-	log.Println("Listening...")
-	http.ListenAndServe(":3000", nil)
+	http.HandleFunc("/301", redirect)
+}
+
+func redirect(w http.ResponseWriter, r *http.Request) {
+
+	http.Redirect(w, r, "http://www.golang.org", 301)
 }
