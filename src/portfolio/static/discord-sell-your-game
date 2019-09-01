@@ -68,7 +68,7 @@
       </ul>
     </nav>
   </div>
-
+<div class="nav-wrapper">
   <div class="desktop-nav">
     <div class="left-nav">
       <nav>
@@ -115,15 +115,17 @@
         <li class="facebook"><a href="https://www.facebook.com/discordapp"> <img src="https://discordapp.com/assets/9b3163fa3bb9d1eb2be647fed797a211.svg" alt=""></a></li>
         <li class="instagram"><a href="https://www.instagram.com/discordapp/"> <img src="https://discordapp.com/assets/a9c828bc42fdacefb74f400a0b875e2e.svg" alt=""></a></li>
       </ul>
+      <button><a href="https://discordapp.com/channels/@me">Open</a></button>
     </nav>
   </div>
+  </div>
 
-<div class="video">
-  <video loop muted autoplay>
-    <source src="https://discordapp.com/assets/21534205199f2c77515c98b8e40aa43e.webm" type="video/webm">
-    <source src="https://discordapp.com/assets/33ecac83e714185feea12e629938688e.mp4" type="video/mp4">
-  </video>
-</div>
+  <div class="video">
+    <video loop muted autoplay>
+      <source src="https://discordapp.com/assets/21534205199f2c77515c98b8e40aa43e.webm" type="video/webm">
+      <source src="https://discordapp.com/assets/33ecac83e714185feea12e629938688e.mp4" type="video/mp4">
+    </video>
+  </div>
 
   <main>
     <div>
@@ -133,9 +135,6 @@
     </div>
   </main>
 
-  <section>
-    g
-  </section>
 
   <footer>
     <nav class="links">
