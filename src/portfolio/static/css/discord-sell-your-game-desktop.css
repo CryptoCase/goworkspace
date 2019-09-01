@@ -1,0 +1,389 @@
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "desktop-nav"
+    "main"
+    "section"
+    "footer";
+  background: #a9cd77;
+  font-family: sans-serif;
+}
+
+/* Navigation */
+div.nav {
+  display: none;
+}
+
+div.desktop-nav {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 25px;
+  z-index: 2;
+  background: #a9cd77;
+  background: linear-gradient(180deg, rgba(169,205,119,0.9389072204968945) 14%, rgba(169,205,119,0.8799894957983193) 31%, rgba(255,255,255,0) 100%);
+}
+
+div.left-nav {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  opacity: 1;
+}
+
+img.discord-logo {
+  height: 35px;
+  position: relative;
+  bottom: 4px;
+  margin-right: 20px;
+}
+
+ul.desktop-main-nav {
+  display: inline-flex;
+  color: white;
+  opacity: 1;
+}
+
+li.stay-open-developers {
+  padding-bottom: 20px;
+}
+
+li.stay-open-community {
+  padding-bottom: 20px;
+}
+
+li.stay-open-support {
+  padding-bottom: 20px;
+}
+
+ul.desktop-main-nav li.stay-open-developers:hover>ul.desktop-subnav-developers {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: absolute;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 332;
+  top: 30px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 140px;
+  z-index: 1000;
+}
+
+ul.desktop-subnav-developers {
+  display: none;
+  position: fixed;
+}
+
+ul.desktop-main-nav li.stay-open-community:hover>ul.desktop-subnav-community {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: absolute;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 425px;
+  top: 30px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 140px;
+}
+
+ul.desktop-subnav-community {
+  display: none;
+  position: fixed;
+}
+
+ul.desktop-main-nav li.stay-open-support:hover>ul.desktop-subnav-support {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: absolute;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 520px;
+  top: 30px;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 140px;
+}
+
+ul.desktop-subnav-support {
+  display: none;
+  position: fixed;
+}
+
+li.desktop-subnav {
+  position: relative;
+  color: #2C2F33;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 100%;
+}
+
+ul.desktop-main-nav li {
+  opacity: .9;
+}
+
+ul.desktop-main-nav li:hover {
+  opacity: 1;
+}
+
+li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav.social-nav {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  bottom: 5px;
+}
+
+ul.social-nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+ul.social-nav li {
+  opacity: .9;
+}
+
+ul.social-nav li:hover {
+  opacity: 1;
+}
+
+button.social-nav {
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 17px 7px;
+  margin-left: 5px;
+  margin-right: 25px;
+  border: 2px solid white;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+div.hr {
+  display: none;
+  width: 2px;
+  height: 15px;
+  color: white;
+  background: white;
+  margin-left: 20px;
+  margin-right: 10px;
+  align-self: center;
+  opacity: .4;
+}
+
+/* Main */
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+main div {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 514px;
+  position: relative;
+  right: 70px;
+  bottom: 700px;
+  margin-bottom: -310px
+}
+
+main h1 {
+  color: white;
+  font-size: 40px;
+  text-shadow: 0 3px 24px #8ab059, 0 1px 1px rgba(24, 25, 28, .3);
+  font-weight: 700;
+  padding-bottom: 20px;
+  line-height: 45px;
+}
+
+main h2 {
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 2px 18px #8ab059, 0 1px 1px rgba(24, 25, 28, .3);
+  max-width: 500px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+main button {
+  background-color: #7289DA;
+  border: 1px solid #7289DA;
+  border-radius: 3px;
+  height: 45px;
+  width: 125px;
+  font-size: 14px;
+  color: #fff;
+}
+
+main button:hover {
+  transform: translateY(-1px);
+}
+
+div.video {
+  display: flex;
+  justify-content: center;
+  background: rgb(169,205,119);
+  background: linear-gradient(360deg, rgba(169,205,119,1) 6%, rgba(237,245,226,0) 31%, rgba(255,255,255,0) 100%);
+  height: 100%;
+}
+
+video {
+  position: relative;
+  top: ;
+  bottom: 100px;
+  left: ;
+  right: ;
+  min-width: 100%;
+  min-width: 100px;
+  max-width: 1200px;
+  height: 900px;
+  object-fit: cover;
+  z-index: -1;
+  margin-bottom: -110px;
+}
+
+/* Section */
+section {
+  background-color: #a9cd77;
+}
+
+/* Footer */
+footer {
+  grid-area: footer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+nav.links {
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  flex-wrap: nowrap;
+}
+
+img.footer-logo {
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+div.footer-product {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.footer-developers {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.footer-resources {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.footer-company {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.footer-more {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+li {
+  text-align: left;
+  padding-left: 0px;
+}
+
+h5 {
+  text-align: left;
+}
+
+hr {
+  height: 1px;
+  width: 750px;
+  opacity: .1;
+  margin-bottom: 25px;
+}
+
+div.try-discord {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.footer-text {
+  position: relative;
+  right: 34%;
+}
+
+h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+}
+
+h4 {
+  color: #eeeeee;
+  opacity: .6;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+button.footer-open-discord {
+  background-color: #7289DA;
+  border: 1px solid #7289DA;
+  border-radius: 3px;
+  height: 45px;
+  width: 125px;
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  top: 10px;
+  left: 34%;
+}
+
+button.footer-open-discord:hover {
+  transform: translateY(-1px);
+}
