@@ -68,56 +68,56 @@
       </ul>
     </nav>
   </div>
-<div class="nav-wrapper">
-  <div class="desktop-nav">
-    <div class="left-nav">
-      <nav>
-        <a href="https://discordapp.com"> <img class="discord-logo" src="https://discordapp.com/assets/c4e681296681c48b7a9be5e461fa9101.svg" alt=""></a>
-      </nav>
-      <nav class="desktop-main-nav">
-        <ul class="desktop-main-nav">
-          <li><a class="" href="https://discordapp.com/download">Download</a></li>
-          <li><a class="" href="https://discordapp.com/nitro">Nitro</a></li>
-          <li><a class="" href="https://discordapp.com/jobs">Jobs</a></li>
-          <li class="stay-open-developers"><a>Developers</a> <img class="desktop-arrow" src="https://discordapp.com/assets/779a770c34fcb823a598a7277301adaf.svg" alt="">
-            <ul class="desktop-subnav-developers">
-              <li class="desktop-subnav"><a class="" href="https://discordapp.com/sell-your-game">Sell Your Game</a></li>
-              <li class="desktop-subnav"><a class="" href="https://discordapp.com/rich-presence">Rich Presence</a></li>
-              <li class="desktop-subnav"><a class="" href="https://discordapp.com/verification">Verification</a></li>
-              <li class="desktop-subnav"><a class="" href="https://discordapp.com/developers">Developer Portal</a></li>
-              <li class="desktop-subnav"><a class="" href="https://discordapp.com/developers/docs">Documentation</a></li>
+  <div class="nav-wrapper">
+    <div class="desktop-nav">
+      <div class="left-nav">
+        <nav>
+          <a href="https://discordapp.com"> <img class="discord-logo" src="https://discordapp.com/assets/c4e681296681c48b7a9be5e461fa9101.svg" alt=""></a>
+        </nav>
+        <nav class="desktop-main-nav">
+          <ul class="desktop-main-nav">
+            <li><a class="" href="https://discordapp.com/download">Download</a></li>
+            <li><a class="" href="https://discordapp.com/nitro">Nitro</a></li>
+            <li><a class="" href="https://discordapp.com/jobs">Jobs</a></li>
+            <li class="stay-open-developers"><a>Developers</a> <img class="desktop-arrow" src="https://discordapp.com/assets/779a770c34fcb823a598a7277301adaf.svg" alt="">
+              <ul class="desktop-subnav-developers">
+                <li class="desktop-subnav"><a class="" href="https://discordapp.com/sell-your-game">Sell Your Game</a></li>
+                <li class="desktop-subnav"><a class="" href="https://discordapp.com/rich-presence">Rich Presence</a></li>
+                <li class="desktop-subnav"><a class="" href="https://discordapp.com/verification">Verification</a></li>
+                <li class="desktop-subnav"><a class="" href="https://discordapp.com/developers">Developer Portal</a></li>
+                <li class="desktop-subnav"><a class="" href="https://discordapp.com/developers/docs">Documentation</a></li>
+            </li>
+          </ul>
+          <li class="stay-open-community"><a class="">Community</a> <img class="desktop-arrow" src="https://discordapp.com/assets/779a770c34fcb823a598a7277301adaf.svg" alt="">
+            <input type="checkbox" id="desktop-community" class="desktop-community">
+            <ul class="desktop-subnav-community">
+              <li class="desktop-subnav"><a class="" href="https://discordapp.com/open-source">Open Source</a></li>
+              <li class="desktop-subnav"><a class="" href="https://discordapp.com/partners">Partners</a></li>
+              <li class="desktop-subnav"><a class="" href="https://discordapp.com/hypesquad">HypeSquad</a></li>
+              <li class="desktop-subnav"><a class="" href="https://discordapp.com/guidelines">Guidelines</a></li>
+            </ul>
           </li>
-        </ul>
-        <li class="stay-open-community"><a class="">Community</a> <img class="desktop-arrow" src="https://discordapp.com/assets/779a770c34fcb823a598a7277301adaf.svg" alt="">
-          <input type="checkbox" id="desktop-community" class="desktop-community">
-          <ul class="desktop-subnav-community">
-            <li class="desktop-subnav"><a class="" href="https://discordapp.com/open-source">Open Source</a></li>
-            <li class="desktop-subnav"><a class="" href="https://discordapp.com/partners">Partners</a></li>
-            <li class="desktop-subnav"><a class="" href="https://discordapp.com/hypesquad">HypeSquad</a></li>
-            <li class="desktop-subnav"><a class="" href="https://discordapp.com/guidelines">Guidelines</a></li>
+          <li class="stay-open-support"><a class="">Support</a> <img class="desktop-arrow" src="https://discordapp.com/assets/779a770c34fcb823a598a7277301adaf.svg" alt="">
+            <input type="checkbox" id="desktop-support" class="desktop-support">
+            <ul class="desktop-subnav-support">
+              <li class="desktop-subnav"><a class="" href="https://support.discordapp.com/hc/en-us">Help & Support</a></li>
+              <li class="desktop-subnav"><a class="" href="https://status.discordapp.com/">Status</a></li>
+              <li class="desktop-subnav"><a class="" href="https://blog.discordapp.com/parents-guide-to-discord-c77d91793e9c">Parent's Guide</a></li>
+              <li class="desktop-subnav"><a class="" href="https://discordapp.com/security">Security</a></li>
+            </ul>
+          </li>
           </ul>
-        </li>
-        <li class="stay-open-support"><a class="">Support</a> <img class="desktop-arrow" src="https://discordapp.com/assets/779a770c34fcb823a598a7277301adaf.svg" alt="">
-          <input type="checkbox" id="desktop-support" class="desktop-support">
-          <ul class="desktop-subnav-support">
-            <li class="desktop-subnav"><a class="" href="https://support.discordapp.com/hc/en-us">Help & Support</a></li>
-            <li class="desktop-subnav"><a class="" href="https://status.discordapp.com/">Status</a></li>
-            <li class="desktop-subnav"><a class="" href="https://blog.discordapp.com/parents-guide-to-discord-c77d91793e9c">Parent's Guide</a></li>
-            <li class="desktop-subnav"><a class="" href="https://discordapp.com/security">Security</a></li>
-          </ul>
-        </li>
+        </nav>
+      </div>
+      <nav class="social-nav">
+        <ul class="social-nav">
+          <li class="twitter"><a href="https://twitter.com/discordapp"> <img src="https://discordapp.com/assets/efc9b24f5779403afd12f5fc8594497f.svg" alt=""></a></li>
+          <li class="facebook"><a href="https://www.facebook.com/discordapp"> <img src="https://discordapp.com/assets/9b3163fa3bb9d1eb2be647fed797a211.svg" alt=""></a></li>
+          <li class="instagram"><a href="https://www.instagram.com/discordapp/"> <img src="https://discordapp.com/assets/a9c828bc42fdacefb74f400a0b875e2e.svg" alt=""></a></li>
         </ul>
+        <button><a href="https://discordapp.com/channels/@me">Open</a></button>
       </nav>
     </div>
-    <nav class="social-nav">
-      <ul class="social-nav">
-        <li class="twitter"><a href="https://twitter.com/discordapp"> <img src="https://discordapp.com/assets/efc9b24f5779403afd12f5fc8594497f.svg" alt=""></a></li>
-        <li class="facebook"><a href="https://www.facebook.com/discordapp"> <img src="https://discordapp.com/assets/9b3163fa3bb9d1eb2be647fed797a211.svg" alt=""></a></li>
-        <li class="instagram"><a href="https://www.instagram.com/discordapp/"> <img src="https://discordapp.com/assets/a9c828bc42fdacefb74f400a0b875e2e.svg" alt=""></a></li>
-      </ul>
-      <button><a href="https://discordapp.com/channels/@me">Open</a></button>
-    </nav>
-  </div>
   </div>
 
   <div class="video">
@@ -128,13 +128,56 @@
   </div>
 
   <main>
-    <div>
+    <div class="hero">
       <h1>Set up shop in your server. <br> Find your fans. <br> Build your kingdom.</h1>
       <h2>Combine the power of community and commerce in your game's Discord server. Connect with 250 million gamers and sell directly to your superfans.</h2>
       <button><a href="">Sell Your Game</a></button>
     </div>
-  </main>
+    <div class="how-it-works">
+      <h2>Get the keys to your kingdom</h2>
+      <div class="three-across">
+        <div class="step">
+          <img src="https://discordapp.com/assets/5053947afa96cfd9db945648278c8e1d.png" alt="">
+          <h4>Step 1
+          </h4>
+          <p>Pay a small fee to unlock game distribution in your server.
+          </p>
+        </div>
+        <div class="step">
+          <img src="https://discordapp.com/assets/159f9fb2653b26e5163460ae886865f8.png" alt="">
+          <h4>Step 2
+          </h4>
+          <p>Use Announcement Channels, Rich Presence, and more to build a community.
+          </p>
+        </div>
+        <div class="step">
+          <img src="https://discordapp.com/assets/dc6fe2bc7bd071ab0696bb831be1975a.png" alt="">
+          <h4>Step 3
+          </h4>
+          <p>Get your game approved for sale and grow your kingdom!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+      <svg class="top" xmlns="http://www.w3.org/2000/svg" width="1440" height="267" viewBox="0 0 1440 267">
+        <path
+          d="M1440,71.5c-18.11-3.24-46.81,5.09-81.79,16.37-32.68,10.54-73.32,23.63-122.86,32.24-50.66,8.8-73.87-9.64-104.17-33.74-31.93-25.39-71.75-57-159.92-69.7C854.11-.14,759.57,31.7,682.83,57.54,647,69.6,615.1,80.35,586.56,84.24c-47.22,6.45-81.17-4.35-115.95-15.42-31.29-10-63.26-20.13-106.19-18.14-40,1.86-72.54,28.27-102.9,52.89-38.47,31.19-73.39,59.5-115.3,31.33C71.23,84.5,0,113.86,0,113.86V267H1440Z"
+          fill="#18191c"></path>
+      </svg>
 
+    </div>
+    <div class="blue">
+      <svg class="blue" xmlns="http://www.w3.org/2000/svg" width="1440" height="267" viewBox="0 0 1440 267">
+        <path
+          d="M1291.53,90.59c-41.91-30.43-76.83.15-115.3,33.84-30.35,26.59-62.93,55.11-102.9,57.11-42.92,2.15-74.89-8.83-106.19-19.59C932.36,150,898.41,138.33,851.2,145.3c-28.55,4.2-60.47,15.82-96.28,28.84-76.74,27.91-171.28,62.29-288.43,44.13-88.16-13.66-128-47.85-159.92-75.27-30.3-26-53.5-45.95-104.17-36.44-49.54,9.29-90.17,23.44-122.86,34.82C44.08,153.72,18,162.8,0,158.9V267H1440V113.61C1432.1,116.71,1362.16,141.85,1291.53,90.59Z"
+          fill="#7289da"></path>
+      </svg>
+    </div>
+    <div class="magic">
+
+    </div>
+  </main>
 
   <footer>
     <nav class="links">
