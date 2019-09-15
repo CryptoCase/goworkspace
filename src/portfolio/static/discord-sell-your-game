@@ -172,7 +172,7 @@
         <img src="https://discordapp.com/assets/da4abf7347f1a85c28e71108e7f4eb8b.png" alt="">
       </div>
       <div class="feature">
-        <img src="https://discordapp.com/assets/c3ad6a1ccb51205c4a329037bde89203.png" alt="">
+        <img class="revenue" src="https://discordapp.com/assets/c3ad6a1ccb51205c4a329037bde89203.png" alt="">
         <div class="feature-description">
           <h3>90/10 revenue share means you make more money.
           </h3>
@@ -189,10 +189,10 @@
           <p>Access daily metrics that show how your game is doing and where your players are coming from, including top-of-funnel attribution tracking.
           </p>
         </div>
-        <img src="https://discordapp.com/assets/0c749ddbdeb6cf650e87bb0ae714db2b.png" alt="">
+        <img class="decisions" src="https://discordapp.com/assets/0c749ddbdeb6cf650e87bb0ae714db2b.png" alt="">
       </div>
       <div class="feature">
-        <img src="https://discordapp.com/assets/eec7165416f49214b6b6ed964a692c24.png" alt="">
+        <img class="alpha" src="https://discordapp.com/assets/eec7165416f49214b6b6ed964a692c24.png" alt="">
         <div class="feature-description">
           <h3>Run private alphas or betas using our powerful role system.
           </h3>
@@ -207,7 +207,7 @@
           <p>Once you're verified, customize your Vanity URL, server banner, and splash image to create a cozy customized clubhouse for your superfans.
           </p>
         </div>
-        <img src="https://discordapp.com/assets/f3fe7208e766a54b833501caf6beecea.png" alt="">
+        <img class="home" src="https://discordapp.com/assets/f3fe7208e766a54b833501caf6beecea.png" alt="">
       </div>
       <svg class="top" xmlns="http://www.w3.org/2000/svg" width="1440" height="267" viewBox="0 0 1440 267">
         <path
@@ -215,12 +215,42 @@
           fill="#18191c"></path>
       </svg>
     </div>
-    <div class="blue">
+
+    <div class="main">
+
+      <div class="blue">
+
+        <div id="blue" class="features">
+          <h2 class="blue">Find your superfans in Discord’s 250 million+ players
+          </h2>
+          <div id="blue-feature" class="feature">
+            <img class="sub" src="https://discordapp.com/assets/7acde687f9b1660fdf51931727d79c4b.png">
+            <div class="feature-description">
+              <h3>Get viral exposure for your game.
+              </h3>
+              <p>Your players are your best evangelists. Integrate Rich Presence so people can automatically show off your game in their status and invite others to play directly in Discord.
+              </p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-description">
+              <h3>Get viral exposure for your game.
+              </h3>
+              <p>Your players are your best evangelists. Integrate Rich Presence so people can automatically show off your game in their status and invite others to play directly in Discord.
+              </p>
+            </div>
+            <img class="viral" src="https://discordapp.com/assets/adf5693c9367c985d8f04890b4afe869.png" alt="">
+          </div>
+
+        </div>
+      </div>
+      <div class="svg-wrapper">
       <svg class="blue" xmlns="http://www.w3.org/2000/svg" width="1440" height="267" viewBox="0 0 1440 267">
         <path
           d="M1291.53,90.59c-41.91-30.43-76.83.15-115.3,33.84-30.35,26.59-62.93,55.11-102.9,57.11-42.92,2.15-74.89-8.83-106.19-19.59C932.36,150,898.41,138.33,851.2,145.3c-28.55,4.2-60.47,15.82-96.28,28.84-76.74,27.91-171.28,62.29-288.43,44.13-88.16-13.66-128-47.85-159.92-75.27-30.3-26-53.5-45.95-104.17-36.44-49.54,9.29-90.17,23.44-122.86,34.82C44.08,153.72,18,162.8,0,158.9V267H1440V113.61C1432.1,116.71,1362.16,141.85,1291.53,90.59Z"
           fill="#7289da"></path>
       </svg>
+      </div>
     </div>
     <div class="magic">
 
