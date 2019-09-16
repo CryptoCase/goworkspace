@@ -309,7 +309,7 @@ main div.features {
   margin-top: 60px;
   background-color: #18191c;
   z-index: 2;
-  padding-bottom: 300px;
+  padding-bottom: 100px;
 }
 
 main div.features img {
@@ -330,7 +330,7 @@ main div.features h2 {
   padding-top: 0px;
   padding-bottom: 60px;
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -405,27 +405,13 @@ svg.top {
   z-index: -1;
 }
 
-svg.blue {
-  height: 200px;
-  width: calc(100% + 2px);
-  position: absolute;
-  z-index: 2;
-}
-
-div.svg-wrapper {
- height: 200px;
- width: 100%;
- position: relative;
- z-index: 5;
- bottom: 1300px;
-}
-
 div.blue {
   display: ;
   width: 100%;
   background-color: #7289DA;
   z-index: 3;
   margin: auto;
+  position: relative;
 }
 
 div.main {
@@ -437,8 +423,18 @@ div.main {
   width: 100%;
 }
 
+svg.blue {
+  height: auto;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  position: tr;
+  left: 50%;
+  bottom: 1300px;
+  z-index: 4;
+}
+
 div#blue-feature {
-padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 div#blue {
@@ -446,11 +442,12 @@ div#blue {
   max-width: 1200px;
   width: 100%;
   margin: auto;
+  padding-top: 100px;
   padding-bottom: 200px;
 }
 
 div#blue div.feature div.feature-description p {
-color: #c7d0f0;
+  color: #c7d0f0;
 }
 
 div.feature img.sub {

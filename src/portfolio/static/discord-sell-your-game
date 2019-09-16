@@ -217,44 +217,57 @@
     </div>
 
     <div class="main">
+      <div id="blue" class="features">
 
-      <div class="blue">
-
-        <div id="blue" class="features">
-          <h2 class="blue">Find your superfans in Discord’s 250 million+ players
-          </h2>
-          <div id="blue-feature" class="feature">
-            <img class="sub" src="https://discordapp.com/assets/7acde687f9b1660fdf51931727d79c4b.png">
-            <div class="feature-description">
-              <h3>Get viral exposure for your game.
-              </h3>
-              <p>Your players are your best evangelists. Integrate Rich Presence so people can automatically show off your game in their status and invite others to play directly in Discord.
-              </p>
-            </div>
+        <h2 class="blue">Find your superfans in Discord’s 250 million+ players
+        </h2>
+        <div id="blue-feature" class="feature">
+          <img class="sub" src="https://discordapp.com/assets/7acde687f9b1660fdf51931727d79c4b.png">
+          <div class="feature-description">
+            <h3>Get viral exposure for your game.
+            </h3>
+            <p>Your players are your best evangelists. Integrate Rich Presence so people can automatically show off your game in their status and invite others to play directly in Discord.
+            </p>
           </div>
-          <div class="feature">
-            <div class="feature-description">
-              <h3>Get viral exposure for your game.
-              </h3>
-              <p>Your players are your best evangelists. Integrate Rich Presence so people can automatically show off your game in their status and invite others to play directly in Discord.
-              </p>
-            </div>
-            <img class="viral" src="https://discordapp.com/assets/adf5693c9367c985d8f04890b4afe869.png" alt="">
+        </div>
+        <div class="feature">
+          <div class="feature-description">
+            <h3>Get viral exposure for your game.
+            </h3>
+            <p>Your players are your best evangelists. Integrate Rich Presence so people can automatically show off your game in their status and invite others to play directly in Discord.
+            </p>
           </div>
+          <img class="viral" src="https://discordapp.com/assets/adf5693c9367c985d8f04890b4afe869.png" alt="">
+        </div>
 
+      </div>
+    </div>
+    </div>
+
+    <div class="magic">
+      <h2></h2>
+      <div class="">
+        <div>
+          <img src="" alt="">
+          <p></p>
+        </div>
+        <div>
+          <img src="" alt="">
+          <p></p>
+        </div>
+        <div>
+          <img src="" alt="">
+          <p></p>
         </div>
       </div>
-      <div class="svg-wrapper">
-      <svg class="blue" xmlns="http://www.w3.org/2000/svg" width="1440" height="267" viewBox="0 0 1440 267">
-        <path
-          d="M1291.53,90.59c-41.91-30.43-76.83.15-115.3,33.84-30.35,26.59-62.93,55.11-102.9,57.11-42.92,2.15-74.89-8.83-106.19-19.59C932.36,150,898.41,138.33,851.2,145.3c-28.55,4.2-60.47,15.82-96.28,28.84-76.74,27.91-171.28,62.29-288.43,44.13-88.16-13.66-128-47.85-159.92-75.27-30.3-26-53.5-45.95-104.17-36.44-49.54,9.29-90.17,23.44-122.86,34.82C44.08,153.72,18,162.8,0,158.9V267H1440V113.61C1432.1,116.71,1362.16,141.85,1291.53,90.59Z"
-          fill="#7289da"></path>
-      </svg>
+      <div>
+        <h3></h3>
+        <button></button>
+        <p></p>
+        <a href=""></a>
       </div>
     </div>
-    <div class="magic">
 
-    </div>
   </main>
 
   <footer>
