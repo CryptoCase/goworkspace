@@ -178,7 +178,7 @@
           </h3>
           <p>It's your game and your players — you deserve the riches.
           </p>
-          <p>* there is no button, you’ll get paid automatically. — Jason, CEO
+          <p id="subtitle">* there is no button, you’ll get paid automatically. — Jason, CEO
           </p>
         </div>
       </div>
@@ -245,26 +245,28 @@
     </div>
 
     <div class="magic">
-      <h2></h2>
-      <div class="">
-        <div>
-          <img src="" alt="">
-          <p></p>
+      <h2>So easy it feels like magic</h2>
+      <div class="tiles">
+        <div class="tile">
+          <img src="https://discordapp.com/assets/b8230638881811105b819177dec09af0.png" alt="">
+          <p>An easy-to-integrate SDK that includes Discord’s crystal-clear voice chat
+          </p>
         </div>
-        <div>
-          <img src="" alt="">
-          <p></p>
+        <div class="tile">
+          <img src="https://discordapp.com/assets/c1a127e6ad6c99161dcd645fb96562c8.png" alt="">
+          <p>Lightning-fast game patching for uploading and downloading games
+          </p>
         </div>
-        <div>
-          <img src="" alt="">
-          <p></p>
+        <div class="tile">
+          <img src="https://discordapp.com/assets/c3fa4d8c7b2db3e103593398cc8f603e.png" alt="">
+          <p>Intuitively designed admin tools for managing your game backend
+          </p>
         </div>
       </div>
-      <div>
-        <h3></h3>
-        <button></button>
-        <p></p>
-        <a href=""></a>
+      <div class="shop">
+        <h3>Ready to set up shop?</h3>
+        <a href="https://discordapp.com/developers/?store_signup=true"><button>Sell Your Game</button></a>
+        <p>Just want vanity perks? <a href="https://discordapp.com/verification">Get verified</a></p>
       </div>
     </div>
 
