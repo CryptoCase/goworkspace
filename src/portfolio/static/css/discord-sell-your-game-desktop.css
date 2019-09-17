@@ -309,7 +309,10 @@ main div.features {
   margin-top: 60px;
   background-color: #18191c;
   z-index: 2;
-  padding-bottom: 100px;
+  padding-bottom: 600px;
+  background-image: url(https://discordapp.com/assets/57796309d31c3db2840b7444eac53945.svg);
+  background-size: cover;
+  background-position: 100% 100%;
 }
 
 main div.features img {
@@ -405,6 +408,17 @@ svg.top {
   z-index: -1;
 }
 
+svg.bb {
+  width: calc(100% + 2px);
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  position: relative;
+  bottom: 500px;
+  z-index: 100;
+  margin-bottom: -500px;
+}
+
 div.blue {
   display: ;
   width: 100%;
@@ -419,8 +433,8 @@ div.main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #7289DA;
   width: 100%;
+
 }
 
 svg.blue {
@@ -435,24 +449,30 @@ svg.blue {
 
 div#blue-feature {
   padding-bottom: 80px;
+  z-index: 5;
 }
 
 div#blue {
   background-color: #7289DA;
-  max-width: 1200px;
+  max-width: ;
   width: 100%;
   margin: auto;
   padding-top: 100px;
   padding-bottom: 200px;
+  z-index: 3;
+  background-image: url(https://discordapp.com/assets/3335d2c1008f390bd3874f83293199e3.svg);
+  background-size: cover;
 }
 
 div#blue div.feature div.feature-description p {
   color: #c7d0f0;
+  z-index: 5
 }
 
 div.feature img.sub {
   width: 50%;
   height: 100%;
+  z-index: 5;
   padding: 0px;
 }
 
@@ -460,6 +480,7 @@ div.feature img.viral {
   width: 50%;
   height: 100%;
   padding: 0px;
+  z-index: 5
 }
 
 h2.blue {
@@ -474,12 +495,35 @@ h2.blue {
   padding-bottom: 60px;
   width: 100%;
   max-width: 1200px;
+  z-index: 6;
+}
+
+img.blue-background-1 {
+  display: none;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  bottom: 1000px;
+}
+
+div.blue-background-1 {
+  background-image: url(https://discordapp.com/assets/3335d2c1008f390bd3874f83293199e3.svg);
+  position: absolute;
+  background-position: bottom;
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  z-index: 3;
+  opacity: .5;
+  height: 100%;
 }
 
 div.magic {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(0deg, rgba(255,255,255,0) 35%, rgba(0,0,0,0.75878299689441) 60%, rgba(0,0,0,1) 83%), url(https://discordapp.com/assets/dcf367432fe24b11a56fd6494873d880.jpg);
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 35%, rgba(0, 0, 0, 0.75878299689441) 60%, rgba(0, 0, 0, 1) 83%), url(https://discordapp.com/assets/dcf367432fe24b11a56fd6494873d880.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -546,18 +590,16 @@ div.shop {
 
 div.shop p {
   color: #f6f6f7;
-      padding: 30px;
+  padding: 30px;
 }
 
 div.shop h3 {
-      padding: 30px;
-      font-size: 32px;
-      font-weight: 600;
+  padding: 30px;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-div.shop button {
-
-}
+div.shop button {}
 
 div.shop a {
   color: #00b0f4;
