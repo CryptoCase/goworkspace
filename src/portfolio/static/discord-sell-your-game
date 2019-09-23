@@ -10,7 +10,7 @@
   <meta property="og:description" content="Step up your game with a modern voice & text chat app. Crystal clear voice, multiple server and channel support, mobile apps, and more." />
   <meta property="og:image" content="/assets/ba74954dde74ff40a32ff58069e78c36.png" />
   <link rel="stylesheet" href="https://caseyscottyoung.com/css/reset.css">
-  <link rel="stylesheet" href="C:\Users\csyou\Documents\GoWorkspace\src\portfolio\static\css\discord-sell-your-game.css">
+  <link rel="stylesheet" href="C:\Users\csyou\Documents\GoWorkspace\src\portfolio\static\css\discord-sell-your-game-mobile.css" media="(max-width: 950px)">
   <link rel="stylesheet" href="C:\Users\csyou\Documents\GoWorkspace\src\portfolio\static\css\discord-sell-your-game-desktop.css" media="(min-width: 950px)">
 </head>
 
@@ -169,7 +169,7 @@
           <p>Store Channels give you full control over your business. Set prices, customize your content, sell DLC and IAP, and more.
           </p>
         </div>
-        <img src="https://discordapp.com/assets/da4abf7347f1a85c28e71108e7f4eb8b.png" alt="">
+        <img class="one" src="https://discordapp.com/assets/da4abf7347f1a85c28e71108e7f4eb8b.png" alt="">
       </div>
       <div class="feature">
         <img class="revenue" src="https://discordapp.com/assets/c3ad6a1ccb51205c4a329037bde89203.png" alt="">
@@ -225,7 +225,7 @@
         <div id="blue-feature" class="feature">
           <img class="sub" src="https://discordapp.com/assets/7acde687f9b1660fdf51931727d79c4b.png">
           <div class="feature-description">
-            <h3>Get viral exposure for your game.
+            <h3>Find your fans with Server Discovery.
             </h3>
             <p>Your players are your best evangelists. Integrate Rich Presence so people can automatically show off your game in their status and invite others to play directly in Discord.
             </p>
@@ -235,7 +235,7 @@
           <div class="feature-description">
             <h3>Get viral exposure for your game.
             </h3>
-            <p>Your players are your best evangelists. Integrate Rich Presence so people can automatically show off your game in their status and invite others to play directly in Discord.
+            <p>If your server gets verified, you’ll get the coveted CHECK and be included in our discovery page. Make sure you’re ready to make a good impression!
             </p>
           </div>
           <img class="viral" src="https://discordapp.com/assets/adf5693c9367c985d8f04890b4afe869.png" alt="">
@@ -268,7 +268,6 @@
         <p>Just want vanity perks? <a href="https://discordapp.com/verification">Get verified</a></p>
       </div>
     </div>
-
   </main>
 
   <footer>
