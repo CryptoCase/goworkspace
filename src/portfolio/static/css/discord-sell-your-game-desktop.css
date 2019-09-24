@@ -408,6 +408,10 @@ svg.top {
   z-index: -1;
 }
 
+svg.top2 {
+display: none;
+}
+
 svg.bb {
   width: calc(100% + 2px);
   width: 100%;
