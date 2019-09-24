@@ -182,8 +182,9 @@ nav.social-nav button {
   padding-left: 15px;
   padding-right: 15px;
   color: white;
-  opacity: .8;
+  opacity: .9;
   font-size: 14px;
+  margin-left: 10px;
 }
 
 nav.social-nav button:hover {
@@ -458,7 +459,6 @@ div#blue-feature {
 
 div#blue {
   background-color: #7289DA;
-  max-width: 950px;
   width: 100%;
   margin: auto;
   padding-top: 100px;
@@ -474,7 +474,7 @@ div#blue div.feature div.feature-description p {
 }
 
 div.feature img.sub {
-  width: 100%;
+  width: 50%;
   height: 100%;
   z-index: 5;
   padding: 0px;
@@ -482,8 +482,8 @@ div.feature img.sub {
 }
 
 div.feature img.viral {
-  width: 400px;
-  height: auto;
+  width: 50%;
+  height: 100%;
   padding: 0px;
   z-index: 5;
   order: -2;
@@ -695,6 +695,7 @@ nav.links {
   margin-top: 100px;
   margin-bottom: 50px;
   flex-wrap: nowrap;
+  color: hsla(0,0%,100%,.6);
 }
 
 img.footer-logo {
@@ -733,13 +734,23 @@ div.footer-more {
   margin-right: 30px;
 }
 
-li {
-  text-align: left;
-  padding-left: 0px;
+h5 {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-h5 {
-  text-align: left;
+li {
+  color: #fff;
+  font-size: 14px;
+  opacity: .6;
+  padding: 3px;
+  text-align: center;
+}
+
+li:hover {
+  opacity: 1;
 }
 
 hr {
@@ -755,6 +766,7 @@ div.try-discord {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 80px;
 }
 
 div.footer-text {
