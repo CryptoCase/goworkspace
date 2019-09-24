@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Casey Young's Portfolio</title>
+  <title>Contact |  Casey Scott Young - Front-End Development & SEO</title>
   <meta name="description" content="">
   <meta name=“robots” content=“noindex”>
   <link rel="stylesheet" href="https://caseyscottyoung.com/css/reset.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
   <link rel="stylesheet" href="https://caseyscottyoung.com/css/contact-success.css">
-
+  <meta property="og:image" content="https://caseyscottyoung.com/images/ogimage.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
