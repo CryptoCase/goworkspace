@@ -70,10 +70,10 @@ ul.desktop-main-nav li.stay-open-developers:hover>ul.desktop-subnav-developers {
   text-align: left;
   position: absolute;
   background-color: white;
-  padding-left: 10px;
+  padding-left: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-  left: 332;
+  left: 312px;
   top: 30px;
   margin-top: 30px;
   border: 1px solid white;
@@ -94,10 +94,10 @@ ul.desktop-main-nav li.stay-open-community:hover>ul.desktop-subnav-community {
   text-align: left;
   position: absolute;
   background-color: white;
-  padding-left: 10px;
+  padding-left: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-  left: 425px;
+  left: 400px;
   top: 30px;
   margin-top: 30px;
   border: 1px solid white;
@@ -117,10 +117,10 @@ ul.desktop-main-nav li.stay-open-support:hover>ul.desktop-subnav-support {
   text-align: left;
   position: absolute;
   background-color: white;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
-  left: 520px;
+  left: 500px;
   top: 30px;
   margin-top: 30px;
   border: 1px solid white;
@@ -144,6 +144,8 @@ li.desktop-subnav {
 
 ul.desktop-main-nav li {
   opacity: .9;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 ul.desktop-main-nav li:hover {

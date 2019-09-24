@@ -10,11 +10,11 @@
   <meta property="og:description" content="Step up your game with a modern voice & text chat app. Crystal clear voice, multiple server and channel support, mobile apps, and more." />
   <meta property="og:image" content="/assets/ba74954dde74ff40a32ff58069e78c36.png" />
   <link rel="stylesheet" href="https://caseyscottyoung.com/css/reset.css">
-  <link rel="stylesheet" href="https://caseyscottyoung.com/css/discord-sell-your-game-mobile.css" media="(max-width: 950px)">
-  <link rel="stylesheet" href="https://caseyscottyoung.com/css/discord-sell-your-game-desktop.css" media="(min-width: 950px)">
+  <!-- <link rel="stylesheet" href="https://caseyscottyoung.com/css/discord-sell-your-game-mobile.css" media="(max-width: 950px)">
+  <link rel="stylesheet" href="https://caseyscottyoung.com/css/discord-sell-your-game-desktop.css" media="(min-width: 950px)"> -->
 
-  <!-- <link rel="stylesheet" href="C:\Users\csyou\Documents\GoWorkspace\src\portfolio\static\css\discord-sell-your-game-mobile.css" media="(max-width: 950px)">
-  <link rel="stylesheet" href="C:\Users\csyou\Documents\GoWorkspace\src\portfolio\static\css\discord-sell-your-game-desktop.css" media="(min-width: 950px)"> -->
+  <link rel="stylesheet" href="C:\Users\csyou\Documents\GoWorkspace\src\portfolio\static\css\discord-sell-your-game-mobile.css" media="(max-width: 950px)">
+  <link rel="stylesheet" href="C:\Users\csyou\Documents\GoWorkspace\src\portfolio\static\css\discord-sell-your-game-desktop.css" media="(min-width: 950px)">
 </head>
 
 <body>
